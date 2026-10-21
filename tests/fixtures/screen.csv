@@ -1,0 +1,6 @@
+record_id,reviewer1_ta,reviewer2_ta
+1,include,include
+2,exclude,exclude
+3,include,exclude
+4,exclude,exclude
+5,maybe,include

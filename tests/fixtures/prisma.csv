@@ -1,0 +1,19 @@
+key,value,label
+db_wos,40,Web of Science
+db_scopus,60,Scopus
+db_ieee,30,IEEE Xplore
+db_sciencedirect,50,ScienceDirect
+db_acm,10,ACM Digital Library
+other_sources,3,Citation searching
+duplicates_removed,70,Duplicates
+excluded_automation,0,Automation
+records_excluded_ta,60,Excluded TA
+reports_not_retrieved,2,Not retrieved
+excluded_EC1,5,EC1 Not rice leaf disease
+excluded_EC2,4,EC2 Not deep learning
+excluded_EC3,3,EC3 No quantitative results
+excluded_EC4,2,EC4 Not a journal article / out of date range
+excluded_EC5,1,EC5 Not English
+excluded_EC7,1,EC7 Duplicate publication
+excluded_QA,5,Below quality threshold
+included,40,Studies included in review

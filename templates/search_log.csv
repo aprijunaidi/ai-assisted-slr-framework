@@ -1,0 +1,8 @@
+database,date_searched,interface,fields_searched,search_string,filters,hits,export_file,notes
+Web of Science Core Collection,,Advanced Search,TS,"see docs/03-search-strategy.md",2021-2025; Article OR Review; English,,exports/wos.ris,
+Scopus,,Advanced document search,TITLE-ABS-KEY,"see docs/03-search-strategy.md",2021-2025; ar re; English; journals,,exports/scopus.ris,
+IEEE Xplore,,Command Search,All Metadata,"see docs/03-search-strategy.md",2021-2025; Journals,,exports/ieee.ris,
+ScienceDirect Q1,,Advanced search,Title-abstract-keywords,"see docs/03-search-strategy.md",2021-2025; Research and Review articles,,exports/sd_q1.ris,
+ScienceDirect Q2,,Advanced search,Title-abstract-keywords,"see docs/03-search-strategy.md",2021-2025; Research and Review articles,,exports/sd_q2.ris,
+ScienceDirect Q3,,Advanced search,Title-abstract-keywords,"see docs/03-search-strategy.md",2021-2025; Research and Review articles,,exports/sd_q3.ris,
+ACM Digital Library,,Advanced Search,Abstract,"see docs/03-search-strategy.md",2021-2025; Research Article Survey,,exports/acm.ris,

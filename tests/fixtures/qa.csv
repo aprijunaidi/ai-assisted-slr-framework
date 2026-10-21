@@ -1,0 +1,8 @@
+study_id,reviewer,QA1,QA2,QA3,QA4,QA5,QA6,QA7,QA8,QA9,evidence
+S1,r1,1,1,0.5,1,0.5,1,0,NA,0.5,synthetic
+S1,r2,1,0.5,0.5,1,0.5,1,0,NA,0.5,synthetic
+S2,r1,0.5,0.5,0,0.5,0,0,0,0,0,synthetic
+S2,r2,0.5,0,0,0.5,0,0,0,0,0,synthetic
+S3,r1,1,0.5,0.5,0.5,0.5,0.5,0,0,0,synthetic
+S3,r2,1,0.5,0,0.5,0.5,0.5,0,0,0,synthetic
+S3,consensus,1,0.5,0.5,0.5,0.5,0.5,0,0,0,synthetic
