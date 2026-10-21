@@ -43,7 +43,6 @@ ai-assisted-slr-framework/
 │   ├── qa_score.py         quality scores, threshold decisions, Cohen's kappa
 │   ├── prisma_flow.py      PRISMA 2020-style flow diagram from counts, with consistency check
 │   └── bibliometrics.py    publications per year, top venues, top keywords
-├── examples/             The 2025 review this framework was developed in
 └── tests/                Synthetic fixtures and a script that runs every tool
 ```
 
@@ -81,11 +80,10 @@ python scripts/bibliometrics.py included.ris --out results/
 - M. J. Page *et al.*, "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews," *BMJ*, vol. 372, n71, 2021, doi: [10.1136/bmj.n71](https://doi.org/10.1136/bmj.n71).
 - B. Kitchenham and S. Charters, "Guidelines for performing systematic literature reviews in software engineering," EBSE Technical Report EBSE-2007-01, Keele University and Durham University, 2007.
 - C. Wohlin, "Guidelines for snowballing in systematic literature studies and a replication in software engineering," in *Proc. EASE*, 2014, doi: [10.1145/2601248.2601268](https://doi.org/10.1145/2601248.2601268).
-- A. Junaidi *et al.*, "Deep learning and edge computing in agriculture: a comprehensive review of recent trends and innovations," *IEEE Access*, vol. 13, pp. 137464–137490, 2025, doi: [10.1109/ACCESS.2025.3595621](https://doi.org/10.1109/ACCESS.2025.3595621).
 
 ## How to cite
 
-If this framework helps your review, please cite it using the **"Cite this repository"** button (from [`CITATION.cff`](CITATION.cff)) and cite the 2025 review above.
+If this framework helps your review, please cite it using the **"Cite this repository"** button (from [`CITATION.cff`](CITATION.cff)).
 
 ## Licence
 

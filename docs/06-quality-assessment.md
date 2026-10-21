@@ -54,7 +54,3 @@ Scores are also used beyond the cut-off:
    ```
 4. **Resolve** disagreements by discussion; record the consensus row with `reviewer = consensus`.
 5. **Report:** the checklist, the scoring rule, the threshold and its justification, the number of papers excluded at the QA stage, the agreement, and the sensitivity check.
-
-## 6.5 Relation to the reference review
-
-The reference review (Junaidi et al., 2025) used five QA items linked to its three RQs, scored High = 1, Medium = 0.5, Low = 0, with a cut-off of 3.0 out of 5.0. This guide keeps that scoring scale and the link between QA items and RQs, and adds items on data splits, baselines, metric definitions, variability and hardware-measured speed (QA3, QA5–QA8), which are the points reviewers of deep learning papers most often question.

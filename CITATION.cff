@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this framework, please cite it as below, together with the review it was developed for."
+message: "If you use this framework, please cite it as below."
 title: "AI-Assisted Systematic Literature Review Framework"
 type: software
 authors:
@@ -16,29 +16,3 @@ keywords:
   - search strategy
   - quality assessment
   - rice leaf disease detection
-references:
-  - type: article
-    title: "Deep Learning and Edge Computing in Agriculture: A Comprehensive Review of Recent Trends and Innovations"
-    authors:
-      - family-names: Junaidi
-        given-names: Apri
-      - family-names: Mohd Hashim
-        given-names: Siti Zaiton
-      - family-names: Othman
-        given-names: Mohd Shahizan
-      - family-names: Mohamad
-        given-names: Mohd Murtadha
-      - family-names: Alhussian
-        given-names: Hitham
-      - family-names: Abdulkadir
-        given-names: Said Jadid
-      - family-names: Nasser
-        given-names: Maged
-      - family-names: Bena
-        given-names: Yunusa Adamu
-    journal: "IEEE Access"
-    volume: 13
-    start: 137464
-    end: 137490
-    year: 2025
-    doi: "10.1109/ACCESS.2025.3595621"

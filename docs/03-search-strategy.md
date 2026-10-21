@@ -107,7 +107,3 @@ Report these numbers in the PRISMA flow diagram (*records identified from each d
 ## 3.4 Export
 
 Export each result set as **RIS** (with abstracts and keywords). Some databases cap the number of records per export, so export large sets in batches and note this in the log. Keep the raw exports unchanged in an `exports/` folder; all cleaning happens in Zotero ([Stage 3](04-reference-management-and-screening.md)).
-
-## 3.5 Lessons from the reference review
-
-In the reference review (Junaidi et al., 2025, *IEEE Access*), the strings placed `"rice leaf diseases detection"` inside the same `OR` group as `"object detection"`, and Web of Science was searched in *All Fields* while Scopus used `TITLE-ABS-KEY`. The 2,072 records retrieved were reduced to 76 included articles (75 in Section IV of the paper). The two changes in this guide (a compulsory crop block and the same fields in every database) are meant to return a smaller and more relevant set and to make the hit counts comparable across databases.
