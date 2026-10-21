@@ -15,7 +15,7 @@
   <a href="https://www.vosviewer.com/"><img src="https://img.shields.io/badge/Bibliometrics-VOSviewer-F2A33A?style=flat" alt="VOSviewer"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-green?style=flat" alt="Code licence: MIT"></a>
   <a href="LICENSE-docs.md"><img src="https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey?style=flat" alt="Docs licence: CC BY 4.0"></a>
-  <a href="CITATION.cff"><img src="https://img.shields.io/badge/Cite-CITATION.cff-blue?style=flat" alt="Citation file"></a>
+  <a href="#how-to-cite"><img src="https://img.shields.io/badge/Cite-this%20framework-blue?style=flat" alt="How to cite"></a>
 </p>
 
 A step-by-step, reproducible workflow for writing a **systematic literature review (SLR)** with the help of AI tools, from the first idea to the submitted manuscript. It is written for postgraduate students and researchers, and illustrated with a worked example on **deep learning for rice leaf disease detection**.
@@ -100,7 +100,53 @@ python scripts/bibliometrics.py included.ris --out results/
 
 ## How to cite
 
-If this framework helps your review, please cite it using the **"Cite this repository"** button (from [`CITATION.cff`](CITATION.cff)).
+If this framework helps your review, please cite it. Pick the style you need and use the copy button at the top right of the box.
+
+**APA (7th edition)**
+
+```text
+Junaidi, A. (2026). AI-assisted systematic literature review framework (Version 1.0.0) [Computer software]. GitHub. https://github.com/aprijunaidi/ai-assisted-slr-framework
+```
+
+**IEEE**
+
+```text
+A. Junaidi, "AI-assisted systematic literature review framework," version 1.0.0, GitHub, 2026. [Online]. Available: https://github.com/aprijunaidi/ai-assisted-slr-framework
+```
+
+**Harvard**
+
+```text
+Junaidi, A. (2026) AI-assisted systematic literature review framework, version 1.0.0. GitHub. Available at: https://github.com/aprijunaidi/ai-assisted-slr-framework (Accessed: [date]).
+```
+
+**BibTeX** (LaTeX, Overleaf, Zotero, Mendeley)
+
+```bibtex
+@software{junaidi2026slrframework,
+  author  = {Junaidi, Apri},
+  title   = {{AI-Assisted Systematic Literature Review Framework}},
+  year    = {2026},
+  version = {1.0.0},
+  url     = {https://github.com/aprijunaidi/ai-assisted-slr-framework},
+  note    = {GitHub repository}
+}
+```
+
+**RIS** (import into Zotero, Mendeley or EndNote)
+
+```text
+TY  - COMP
+AU  - Junaidi, Apri
+TI  - AI-Assisted Systematic Literature Review Framework
+PY  - 2026
+ET  - 1.0.0
+PB  - GitHub
+UR  - https://github.com/aprijunaidi/ai-assisted-slr-framework
+ER  - 
+```
+
+You can also use the **"Cite this repository"** button in the right sidebar, which reads [`CITATION.cff`](CITATION.cff).
 
 ## Licence
 
