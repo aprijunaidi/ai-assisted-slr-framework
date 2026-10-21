@@ -30,6 +30,8 @@ Two checks before submission:
 - **Similarity with your own earlier work.** Text reused from your thesis or a previous review (even your own) is flagged by similarity checks and can lead to desk rejection. Rewrite from the underlying facts rather than swapping synonyms, and cite the earlier paper.
 - **Technical accuracy after rewriting.** Paraphrasing tools sometimes change numbers, metric names or the strength of a claim. Re-check every number against the extraction table.
 
+The output of this stage is the **final draft article**: the language-refined manuscript, checked against the extraction table, that the authors read once more in full before submission.
+
 ## 8.4 Disclosure of AI use
 
 Most publishers now require a statement on generative AI use (Elsevier: a separate declaration; Springer Nature: description in the Methods when use goes beyond copy editing; IEEE: disclosure in the acknowledgements). Keep the prompt log from [Stage 1](01-ideation-and-prompting.md) so you can describe:

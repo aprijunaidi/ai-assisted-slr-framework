@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1850" viewBox="0 0 1400 1850" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#37474F"/></marker>
+<marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C62828"/></marker>
+<marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E7D32"/></marker>
+
+<style>
+  .flow { stroke-dasharray: 12 8; animation: dash .8s linear infinite; }
+  @keyframes dash { to { stroke-dashoffset: -20; } }
+  .hl, .hlr { fill: none; stroke-width: 7; opacity: 0; animation: glow 15.4s ease-in-out infinite; }
+  .hl { stroke: #FF6D00; } .hlr { stroke: #E53935; }
+  .hl2 { fill: none; stroke: #FFB74D; stroke-width: 22; opacity: 0; animation: glow2 15.4s ease-in-out infinite; }
+  @keyframes glow  { 0% {opacity:0} 2% {opacity:1} 8% {opacity:1} 12% {opacity:0} 100% {opacity:0} }
+  @keyframes glow2 { 0% {opacity:0} 2% {opacity:.35} 8% {opacity:.35} 12% {opacity:0} 100% {opacity:0} }
+  .dot { stroke: #fff; stroke-width: 2; }
+  @media (prefers-reduced-motion: reduce) { .flow, .hl, .hlr, .hl2 { animation: none; } .dot { display: none; } }
+</style>
+</defs>
+<rect width="1400" height="1850" fill="#FFFFFF"/>
+<text x="700" y="62" font-size="40" font-weight="bold" text-anchor="middle" fill="#1F2D3D">Systematic Literature Review Process</text>
+<rect x="560" y="80" width="280" height="5" rx="2.5" fill="#F2A33A"/>
+<rect x="20" y="110" width="1360" height="600" rx="26" fill="#EEF5FC" stroke="#BBD3EE" stroke-width="2"/>
+<rect x="40" y="130" width="290" height="74" rx="18" fill="#2F6FB5"/>
+<text x="62" y="158" font-size="17" font-weight="bold" fill="#fff" opacity="0.85" letter-spacing="2">PHASE 1</text>
+<text x="62" y="188" font-size="21" font-weight="bold" fill="#fff">Planning</text>
+<rect x="20" y="730" width="1360" height="640" rx="26" fill="#FFF8EC" stroke="#F1D6A6" stroke-width="2"/>
+<rect x="40" y="750" width="290" height="74" rx="18" fill="#D98A00"/>
+<text x="62" y="778" font-size="17" font-weight="bold" fill="#fff" opacity="0.85" letter-spacing="2">PHASE 2</text>
+<text x="62" y="808" font-size="21" font-weight="bold" fill="#fff">Screening and Selection</text>
+<rect x="20" y="1390" width="1360" height="430" rx="26" fill="#EEF8F0" stroke="#BFE0C6" stroke-width="2"/>
+<rect x="40" y="1410" width="290" height="74" rx="18" fill="#2E7D32"/>
+<text x="62" y="1438" font-size="17" font-weight="bold" fill="#fff" opacity="0.85" letter-spacing="2">PHASE 3</text>
+<text x="62" y="1468" font-size="21" font-weight="bold" fill="#fff">Extraction and Synthesis</text>
+<rect x="465" y="136" width="200" height="60" rx="30" fill="#000" opacity="0.10"/>
+<rect x="460" y="130" width="200" height="60" rx="30" fill="#455A64"/>
+<text x="560" y="169" font-size="26" font-weight="bold" text-anchor="middle" fill="#fff">Start</text>
+<polyline class="flow" points="560,190 560,238" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="375" y="246" width="380" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="240" width="380" height="80" rx="16" fill="#2F6FB5"/>
+<circle cx="370" cy="280.0" r="24" fill="#fff" stroke="#2F6FB5" stroke-width="4"/>
+<text x="370" y="288.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2F6FB5">1</text>
+<text x="572.0" y="289.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Planning</text>
+<polyline class="flow" points="560,320 560,358" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="375" y="366" width="380" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="360" width="380" height="80" rx="16" fill="#2F6FB5"/>
+<circle cx="370" cy="400.0" r="24" fill="#fff" stroke="#2F6FB5" stroke-width="4"/>
+<text x="370" y="408.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2F6FB5">2</text>
+<text x="572.0" y="395.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Formulate Research</text>
+<text x="572.0" y="423.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Questions</text>
+<polyline class="flow" points="560,440 560,478" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="375" y="486" width="380" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="480" width="380" height="80" rx="16" fill="#2F6FB5"/>
+<circle cx="370" cy="520.0" r="24" fill="#fff" stroke="#2F6FB5" stroke-width="4"/>
+<text x="370" y="528.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2F6FB5">3</text>
+<text x="572.0" y="529.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Search Process</text>
+<polyline class="flow" points="560,560 560,598" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="375" y="606" width="380" height="90" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="600" width="380" height="90" rx="16" fill="#2F6FB5"/>
+<circle cx="370" cy="645.0" r="24" fill="#fff" stroke="#2F6FB5" stroke-width="4"/>
+<text x="370" y="653.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2F6FB5">4</text>
+<text x="572.0" y="640.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Set Inclusion and</text>
+<text x="572.0" y="668.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Exclusion Criteria</text>
+<path d="M945,440 L945,540 A150,24 0 0 0 1245,540 L1245,440" fill="#5C7EA6"/>
+<ellipse cx="1095" cy="440" rx="150" ry="24" fill="#7D9CC0"/>
+<text x="1095" y="508.0" font-size="24" font-weight="bold" text-anchor="middle" fill="#fff">Scientific Databases</text>
+<polyline class="flow" points="750,520 943,520" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polyline class="flow" points="1095,564 1095,588" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<path d="M960,590 L1200,590 L1230,620 L1230,670 L960,670 Z" fill="#DCE6F2" stroke="#5C7EA6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M970,600 L1210,600 L1240,630 L1240,680 L970,680 Z" fill="#E9EFF7" stroke="#5C7EA6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M980,610 L1220,610 L1250,640 L1250,690 L980,690 Z" fill="#FFFFFF" stroke="#5C7EA6" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M1220,610 L1220,640 L1250,640" fill="none" stroke="#5C7EA6" stroke-width="2.5"/>
+<text x="1119" y="658" font-size="23" font-weight="bold" text-anchor="middle" fill="#2F4A6B">Identified Papers</text>
+<polyline class="flow" points="1095,690 1095,760 572,760" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<circle cx="560" cy="760" r="8" fill="#37474F"/>
+<line class="flow" x1="560" y1="690" x2="560" y2="752" stroke="#37474F" stroke-width="3"/>
+<polyline class="flow" points="560,768 560,803" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polygon points="565,811 775,906 565,1001 355,906" fill="#000" opacity="0.10"/>
+<polygon points="560,805 770,900 560,995 350,900" fill="#FFE7B3" stroke="#D98A00" stroke-width="3" stroke-linejoin="round"/>
+<text x="560" y="895" font-size="24" font-weight="bold" text-anchor="middle" fill="#6B4300">Inclusion criteria</text>
+<text x="560" y="923" font-size="24" font-weight="bold" text-anchor="middle" fill="#6B4300">met?</text>
+<polyline class="flow" points="560,995 560,1043" fill="none" stroke="#2E7D32" stroke-width="3" stroke-linejoin="round" marker-end="url(#arG)"/>
+<rect x="571.0" y="1002" width="68" height="32" rx="16" fill="#2E7D32"/>
+<text x="605" y="1025" font-size="19" font-weight="bold" text-anchor="middle" fill="#fff">Yes</text>
+<rect x="375" y="1051" width="380" height="85" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="1045" width="380" height="85" rx="16" fill="#D98A00"/>
+<circle cx="370" cy="1087.5" r="24" fill="#fff" stroke="#D98A00" stroke-width="4"/>
+<text x="370" y="1095.5" font-size="22" font-weight="bold" text-anchor="middle" fill="#D98A00">5</text>
+<text x="572.0" y="1082.5" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Apply Quality</text>
+<text x="572.0" y="1110.5" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Assessment</text>
+<polyline class="flow" points="560,1130 560,1173" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<polygon points="565,1184 775,1276 565,1368 355,1276" fill="#000" opacity="0.10"/>
+<polygon points="560,1178 770,1270 560,1362 350,1270" fill="#FFE7B3" stroke="#D98A00" stroke-width="3" stroke-linejoin="round"/>
+<text x="560" y="1265" font-size="24" font-weight="bold" text-anchor="middle" fill="#6B4300">Score above</text>
+<text x="560" y="1293" font-size="24" font-weight="bold" text-anchor="middle" fill="#6B4300">threshold?</text>
+<rect x="995" y="1236" width="260" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="990" y="1230" width="260" height="80" rx="16" fill="#FDECEC" stroke="#C62828" stroke-width="3"/>
+<text x="1120" y="1279" font-size="25" font-weight="bold" text-anchor="middle" fill="#B71C1C">Exclude Paper</text>
+<polyline class="flow" points="770,900 1120,900 1120,1226" fill="none" stroke="#C62828" stroke-width="3" stroke-linejoin="round" marker-end="url(#arR)"/>
+<rect x="833.0" y="860" width="54" height="32" rx="16" fill="#C62828"/>
+<text x="860" y="883" font-size="19" font-weight="bold" text-anchor="middle" fill="#fff">No</text>
+<polyline class="flow" points="770,1270 986,1270" fill="none" stroke="#C62828" stroke-width="3" stroke-linejoin="round" marker-end="url(#arR)"/>
+<rect x="833.0" y="1230" width="54" height="32" rx="16" fill="#C62828"/>
+<text x="860" y="1253" font-size="19" font-weight="bold" text-anchor="middle" fill="#fff">No</text>
+<polyline class="flow" points="560,1362 560,1458" fill="none" stroke="#2E7D32" stroke-width="3" stroke-linejoin="round" marker-end="url(#arG)"/>
+<rect x="571.0" y="1400" width="68" height="32" rx="16" fill="#2E7D32"/>
+<text x="605" y="1423" font-size="19" font-weight="bold" text-anchor="middle" fill="#fff">Yes</text>
+<rect x="375" y="1466" width="380" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="1460" width="380" height="80" rx="16" fill="#2E7D32"/>
+<circle cx="370" cy="1500.0" r="24" fill="#fff" stroke="#2E7D32" stroke-width="4"/>
+<text x="370" y="1508.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E7D32">6</text>
+<text x="572.0" y="1509.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Data Collection</text>
+<polyline class="flow" points="560,1540 560,1578" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="375" y="1586" width="380" height="80" rx="16" fill="#000" opacity="0.10"/>
+<rect x="370" y="1580" width="380" height="80" rx="16" fill="#2E7D32"/>
+<circle cx="370" cy="1620.0" r="24" fill="#fff" stroke="#2E7D32" stroke-width="4"/>
+<text x="370" y="1628.0" font-size="22" font-weight="bold" text-anchor="middle" fill="#2E7D32">7</text>
+<text x="572.0" y="1629.0" font-size="25" font-weight="bold" text-anchor="middle" fill="#fff">Data Analysis</text>
+<polyline class="flow" points="560,1660 560,1718" fill="none" stroke="#37474F" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+<rect x="465" y="1726" width="200" height="60" rx="30" fill="#000" opacity="0.10"/>
+<rect x="460" y="1720" width="200" height="60" rx="30" fill="#455A64"/>
+<text x="560" y="1759" font-size="26" font-weight="bold" text-anchor="middle" fill="#fff">End</text>
+<polyline class="flow" points="1120,1310 1120,1750 664,1750" fill="none" stroke="#C62828" stroke-width="3" stroke-linejoin="round" marker-end="url(#arR)"/>
+<g>
+<rect class="hl2" x="460" y="130" width="200" height="60" rx="30" style="animation-delay:0.00s"/>
+<rect class="hl" x="460" y="130" width="200" height="60" rx="30" style="animation-delay:0.00s"/>
+<rect class="hl2" x="370" y="240" width="380" height="80" rx="16" style="animation-delay:1.10s"/>
+<rect class="hl" x="370" y="240" width="380" height="80" rx="16" style="animation-delay:1.10s"/>
+<rect class="hl2" x="370" y="360" width="380" height="80" rx="16" style="animation-delay:2.20s"/>
+<rect class="hl" x="370" y="360" width="380" height="80" rx="16" style="animation-delay:2.20s"/>
+<rect class="hl2" x="370" y="480" width="380" height="80" rx="16" style="animation-delay:3.30s"/>
+<rect class="hl" x="370" y="480" width="380" height="80" rx="16" style="animation-delay:3.30s"/>
+<path class="hl2" d="M945,440 L945,540 A150,24 0 0 0 1245,540 L1245,440 A150,24 0 0 0 945,440 Z" style="animation-delay:4.40s"/>
+<path class="hl" d="M945,440 L945,540 A150,24 0 0 0 1245,540 L1245,440 A150,24 0 0 0 945,440 Z" style="animation-delay:4.40s"/>
+<rect class="hl2" x="958" y="588" width="294" height="104" rx="6" style="animation-delay:5.50s"/>
+<rect class="hl" x="958" y="588" width="294" height="104" rx="6" style="animation-delay:5.50s"/>
+<rect class="hl2" x="370" y="600" width="380" height="90" rx="16" style="animation-delay:6.60s"/>
+<rect class="hl" x="370" y="600" width="380" height="90" rx="16" style="animation-delay:6.60s"/>
+<polygon class="hl2" points="560,805 770,900 560,995 350,900" style="animation-delay:7.70s"/>
+<polygon class="hl" points="560,805 770,900 560,995 350,900" style="animation-delay:7.70s"/>
+<rect class="hl2" x="370" y="1045" width="380" height="85" rx="16" style="animation-delay:8.80s"/>
+<rect class="hl" x="370" y="1045" width="380" height="85" rx="16" style="animation-delay:8.80s"/>
+<polygon class="hl2" points="560,1178 770,1270 560,1362 350,1270" style="animation-delay:9.90s"/>
+<polygon class="hl" points="560,1178 770,1270 560,1362 350,1270" style="animation-delay:9.90s"/>
+<rect class="hl2" x="990" y="1230" width="260" height="80" rx="16" style="animation-delay:11.00s"/>
+<rect class="hlr" x="990" y="1230" width="260" height="80" rx="16" style="animation-delay:11.00s"/>
+<rect class="hl2" x="370" y="1460" width="380" height="80" rx="16" style="animation-delay:12.10s"/>
+<rect class="hl" x="370" y="1460" width="380" height="80" rx="16" style="animation-delay:12.10s"/>
+<rect class="hl2" x="370" y="1580" width="380" height="80" rx="16" style="animation-delay:13.20s"/>
+<rect class="hl" x="370" y="1580" width="380" height="80" rx="16" style="animation-delay:13.20s"/>
+<rect class="hl2" x="460" y="1720" width="200" height="60" rx="30" style="animation-delay:14.30s"/>
+<rect class="hl" x="460" y="1720" width="200" height="60" rx="30" style="animation-delay:14.30s"/>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,190 L560,238"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,320 L560,358"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,440 L560,478"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,560 L560,598"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M750,520 L943,520"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M1095,564 L1095,588"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="2.28s" repeatCount="indefinite" path="M1095,690 L1095,760 L572,760"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,768 L560,803"/></circle>
+<circle class="dot" r="9" fill="#43A047"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,995 L560,1043"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,1130 L560,1173"/></circle>
+<circle class="dot" r="9" fill="#E53935"><animateMotion dur="2.60s" repeatCount="indefinite" path="M770,900 L1120,900 L1120,1226"/></circle>
+<circle class="dot" r="9" fill="#E53935"><animateMotion dur="0.83s" repeatCount="indefinite" path="M770,1270 L986,1270"/></circle>
+<circle class="dot" r="9" fill="#43A047"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,1362 L560,1458"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,1540 L560,1578"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,1660 L560,1718"/></circle>
+<circle class="dot" r="9" fill="#E53935"><animateMotion dur="3.45s" repeatCount="indefinite" path="M1120,1310 L1120,1750 L664,1750"/></circle>
+<circle class="dot" r="9" fill="#FF6D00"><animateMotion dur="0.80s" repeatCount="indefinite" path="M560,690 L560,752"/></circle>
+</g>
+</svg>

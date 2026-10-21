@@ -34,11 +34,13 @@ The framework follows the PRISMA 2020 statement and combines it with practical t
 | **2 · Search** | Turn the RQs into concept blocks and database-specific strings; log every search | Web of Science, Scopus, IEEE Xplore, ScienceDirect, ACM DL | [03 Search strategy](docs/03-search-strategy.md) |
 | **3 · Selection** | De-duplicate, screen titles/abstracts and full texts, apply eligibility criteria, assess quality | Zotero, Rayyan, `dedup_ris.py`, `qa_score.py` | [04 Screening](docs/04-reference-management-and-screening.md) · [05 Inclusion/exclusion](docs/05-inclusion-exclusion-criteria.md) · [06 Quality assessment](docs/06-quality-assessment.md) |
 | **4 · Extraction and analysis** | Extract data per RQ, describe the literature, synthesise, draw the PRISMA flow | Extraction template, VOSviewer, Python, Napkin | [07 Extraction and bibliometrics](docs/07-data-extraction-and-bibliometrics.md) |
-| **5 · Writing** | Write by RQ, cite from Zotero, refine language, disclose AI use, publish the reproducibility package | Zotero, InstaText | [08 Writing and reporting](docs/08-writing-and-reporting.md) |
+| **5 · Writing** | Write by RQ, cite from Zotero, refine language, produce the final draft article, disclose AI use, publish the reproducibility package | Zotero, InstaText | [08 Writing and reporting](docs/08-writing-and-reporting.md) |
 
 The decision logic of stages 2–4 (criteria first, then quality threshold, then extraction):
 
-![SLR process](figures/slr-process.png)
+![SLR process (animated)](figures/slr-process-animated.svg)
+
+<sub>Static versions: [PNG](figures/slr-process.png) · [PDF](figures/slr-process.pdf) · [SVG](figures/slr-process.svg).</sub>
 
 ## Worked example in one table
 

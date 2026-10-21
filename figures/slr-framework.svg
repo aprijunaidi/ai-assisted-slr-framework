@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2090" viewBox="0 0 1700 2090" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="2290" viewBox="0 0 1700 2290" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
     </marker>
   </defs>
-  <rect width="1700" height="2090" fill="#ffffff"/>
+  <rect width="1700" height="2290" fill="#ffffff"/>
 
   <!-- Title -->
   <rect x="260" y="20" width="1180" height="70" fill="#FFB366"/>
@@ -96,7 +96,7 @@
   <polyline points="1020,1510 1020,1640 572,1640" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arr)"/>
 
   <!-- ===== STAGE 3: Writing (bottom) ===== -->
-  <rect x="20" y="1770" width="1660" height="290" rx="24" fill="#F6FFF0" stroke="#5FA83A" stroke-width="2" stroke-dasharray="10 6"/>
+  <rect x="20" y="1770" width="1660" height="490" rx="24" fill="#F6FFF0" stroke="#5FA83A" stroke-width="2" stroke-dasharray="10 6"/>
   <text x="50" y="1812" font-size="26" font-weight="bold" fill="#3D7A1F">Writing and Language Refinement</text>
 
   <polyline points="570,1680 650,1680 650,1945 698,1945" fill="none" stroke="#000" stroke-width="3" marker-end="url(#arr)"/>
@@ -111,4 +111,7 @@
   <line x1="1320" y1="1945" x2="1388" y2="1945" stroke="#000" stroke-width="3" marker-end="url(#arr)"/>
   <rect x="1390" y="1885" width="260" height="120" rx="14" fill="#F7F7F7" stroke="#222" stroke-width="3"/>
   <text x="1528" y="1958" font-size="32" font-weight="bold" text-anchor="end">stealth</text><text x="1528" y="1958" font-size="32" text-anchor="start">writer</text>
+  <line x1="1520" y1="2005" x2="1520" y2="2073" stroke="#000" stroke-width="3" marker-end="url(#arr)"/>
+  <path d="M1370,2075 L1670,2075 L1670,2205 C1610,2175 1560,2170 1510,2196 C1460,2222 1410,2220 1370,2205 Z" fill="#FFD966" stroke="#000" stroke-width="2"/>
+  <text x="1520" y="2140" font-size="29" font-weight="bold" text-anchor="middle">Final Draft Article</text>
 </svg>

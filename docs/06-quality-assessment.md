@@ -2,7 +2,7 @@
 
 **Goal:** judge how much each included study can be trusted and how useful it is for the RQs, using the same written checklist for every paper, so that the synthesis rests on studies that report enough to be believed and reused.
 
-![SLR process](../figures/slr-process.png)
+![SLR process](../figures/slr-process-animated.svg)
 
 ## 6.1 Why a computer-vision-specific checklist
 
