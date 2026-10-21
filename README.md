@@ -22,7 +22,7 @@ A step-by-step, reproducible workflow for writing a **systematic literature revi
 
 The framework follows the PRISMA 2020 statement and combines it with practical tooling: AI assistants for ideation, Zotero and Rayyan for screening, a computer-vision-specific quality checklist, and small Python scripts that make the counts and figures reproducible.
 
-![AI-assisted SLR framework (animated)](figures/slr-framework-animated.svg)
+![AI-assisted SLR framework (animated)](figures/slr-framework-animated-v2.svg)
 
 <sub>Animated diagram: each block lights up in the order of the workflow. Static versions for papers and slides: [PNG](figures/slr-framework.png) · [PDF](figures/slr-framework.pdf) · [SVG](figures/slr-framework.svg).</sub>
 
