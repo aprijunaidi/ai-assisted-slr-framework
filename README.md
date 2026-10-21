@@ -1,5 +1,23 @@
 # AI-Assisted Systematic Literature Review Framework
 
+<p align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aprijunaidi.ai-assisted-slr-framework&left_text=Visitors" alt="Visitors">
+  <a href="https://github.com/aprijunaidi/ai-assisted-slr-framework/stargazers"><img src="https://img.shields.io/github/stars/aprijunaidi/ai-assisted-slr-framework?style=flat&logo=github&label=Stars" alt="GitHub stars"></a>
+  <a href="https://github.com/aprijunaidi/ai-assisted-slr-framework/network/members"><img src="https://img.shields.io/github/forks/aprijunaidi/ai-assisted-slr-framework?style=flat&logo=github&label=Forks" alt="GitHub forks"></a>
+  <a href="https://github.com/aprijunaidi/ai-assisted-slr-framework/commits/main"><img src="https://img.shields.io/github/last-commit/aprijunaidi/ai-assisted-slr-framework?style=flat&label=Last%20update" alt="Last commit"></a>
+  <a href="https://github.com/aprijunaidi/ai-assisted-slr-framework/actions/workflows/test-scripts.yml"><img src="https://github.com/aprijunaidi/ai-assisted-slr-framework/actions/workflows/test-scripts.yml/badge.svg" alt="Script tests"></a>
+</p>
+<p align="left">
+  <a href="https://www.prisma-statement.org/"><img src="https://img.shields.io/badge/Reporting-PRISMA%202020-2F6FB5?style=flat" alt="PRISMA 2020"></a>
+  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.9+">
+  <a href="https://www.zotero.org/"><img src="https://img.shields.io/badge/References-Zotero-CC2936?style=flat&logo=zotero&logoColor=white" alt="Zotero"></a>
+  <a href="https://www.rayyan.ai/"><img src="https://img.shields.io/badge/Screening-Rayyan-00A99D?style=flat" alt="Rayyan"></a>
+  <a href="https://www.vosviewer.com/"><img src="https://img.shields.io/badge/Bibliometrics-VOSviewer-F2A33A?style=flat" alt="VOSviewer"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Code-MIT-green?style=flat" alt="Code licence: MIT"></a>
+  <a href="LICENSE-docs.md"><img src="https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey?style=flat" alt="Docs licence: CC BY 4.0"></a>
+  <a href="CITATION.cff"><img src="https://img.shields.io/badge/Cite-CITATION.cff-blue?style=flat" alt="Citation file"></a>
+</p>
+
 A step-by-step, reproducible workflow for writing a **systematic literature review (SLR)** with the help of AI tools, from the first idea to the submitted manuscript. It is written for postgraduate students and researchers, and illustrated with a worked example on **deep learning for rice leaf disease detection**.
 
 The framework follows the PRISMA 2020 statement and combines it with practical tooling: AI assistants for ideation, Zotero and Rayyan for screening, a computer-vision-specific quality checklist, and small Python scripts that make the counts and figures reproducible.
