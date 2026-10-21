@@ -2,7 +2,7 @@
 
 **Goal of this stage:** leave with a review topic, one research objective (RO), a small set of research questions (RQs) with their motivations, and concept blocks with a first list of search terms. Nothing found by an AI tool at this stage is evidence yet; it is a lead to be checked in Stage 2.
 
-![SLR framework](../figures/slr-framework.png)
+![SLR framework](../figures/slr-framework-animated.svg)
 
 ## 1.1 Which tool for which job
 
