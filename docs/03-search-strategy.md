@@ -4,7 +4,7 @@
 
 ## 3.1 Principles
 
-1. **Build the string from concept blocks, not from a sentence.** Blocks come from the PICOC table in [Stage 1](02-research-objective-and-questions.md): `A (crop) AND B (disease) AND C (method)`. Terms *within* a block are joined with `OR`; blocks are joined with `AND`.
+1. **Build the string from concept blocks, not from a sentence.** Blocks come from the key concepts of the RQs in [Stage 1](02-research-objective-and-questions.md): `A (crop) AND B (disease) AND C (method)`. Terms *within* a block are joined with `OR`; blocks are joined with `AND`.
 2. **The crop term must be compulsory.** If `rice` is only one option inside an `OR` group (for example `"object detection" OR "rice leaf disease detection"`), the database returns every object-detection paper, and screening load explodes. Putting the crop in its own `AND` block keeps results on topic.
 3. **Search the same fields everywhere.** Use title, abstract and keywords in every database (WoS `TS=`, Scopus `TITLE-ABS-KEY`, IEEE metadata/abstract, ScienceDirect "Title, abstract or author-specified keywords"). Mixing "All fields" in one database with "title-abstract-keywords" in another makes the hit counts incomparable.
 4. **Filters go after the string and are written down.** Year range, document type, language and source type are applied the same way in every database and recorded in the search log.

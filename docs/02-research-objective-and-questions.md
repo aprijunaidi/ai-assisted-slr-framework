@@ -1,4 +1,4 @@
-# Stage 1 output · Research objective, research questions and PICOC
+# Stage 1 output · Research objective, research questions and search concepts
 
 This page is a **worked example** produced with the prompts in [Stage 1](01-ideation-and-prompting.md). It is a template for a new review on rice leaf disease detection, not a finished protocol: the final wording and scope are the review team's decision.
 
@@ -16,19 +16,9 @@ This page is a **worked example** produced with the prompts in [Stage 1](01-idea
 
 **How the RQs fit together:** RQ1 asks *what the evidence is built on*, RQ2 asks *what the methods are*, RQ3 asks *how far the results can be trusted and used*. Each RQ maps to its own data items in the extraction form ([Stage 4](07-data-extraction-and-bibliometrics.md)) and its own quality-assessment item ([QA](06-quality-assessment.md)).
 
-## 2.3 PICOC frame
+## 2.3 Concept blocks for searching
 
-| Element | Definition for this review |
-|---|---|
-| **Population** | Rice (*Oryza sativa*) leaf images showing one or more diseases (e.g. bacterial leaf blight, blast, brown spot, leaf smut, tungro, sheath blight) |
-| **Intervention** | Deep learning detection or segmentation models (CNN-based detectors such as YOLO and Faster R-CNN, transformer-based detectors, models with attention or multi-scale modules) |
-| **Comparison** | Baseline detectors and alternative architectures reported in the same study |
-| **Outcome** | Detection performance (precision, recall, F1, mAP@0.5, mAP@0.5:0.95), model cost (parameters, FLOPs, size), inference speed (latency, FPS) and the hardware used, evaluation practice (splits, runs, statistics) |
-| **Context** | Laboratory, controlled and field imaging; workstation, cloud, mobile and edge-device deployment |
-
-## 2.4 Concept blocks for searching
-
-The search string combines **A AND B AND C**. Block D is *not* used as a search filter, because requiring deployment terms would drop studies that only report accuracy; it is used later to tag papers for RQ3.
+The key concepts are taken directly from the research objective and the three RQs: the crop and its diseases (RQ1), the deep learning methods (RQ2) and the deployment setting (RQ3). The search string combines **A AND B AND C**. Block D is *not* used as a search filter, because requiring deployment terms would drop studies that only report accuracy; it is used later to tag papers for RQ3.
 
 | Block | Concept | Terms (truncation `*` where the database supports it) |
 |---|---|---|

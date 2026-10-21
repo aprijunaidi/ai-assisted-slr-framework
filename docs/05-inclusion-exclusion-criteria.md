@@ -15,9 +15,9 @@
 
 | Code | Inclusion criterion | Code | Exclusion criterion | Basis | Stage applied |
 |---|---|---|---|---|---|
-| IC1 | The study detects, localises or segments **diseases on rice leaves** from images | EC1 | Other crops only; rice pests, weeds, nutrient deficiency or grain quality only; no rice leaf disease | Population (RO) | T/A |
-| IC2 | The study proposes or evaluates a **deep learning** model (CNN, YOLO family, R-CNN family, transformer, hybrid) | EC2 | Only traditional image processing or classical machine learning (e.g. SVM on hand-crafted features) | Intervention (RQ2) | T/A |
-| IC3 | The study reports **quantitative results** on a described image dataset (at least one of precision, recall, F1, mAP, accuracy) | EC3 | Concept, position or opinion papers; no experiment or no dataset described | Outcomes (RQ1–RQ3) | Full text |
+| IC1 | The study detects, localises or segments **diseases on rice leaves** from images | EC1 | Other crops only; rice pests, weeds, nutrient deficiency or grain quality only; no rice leaf disease | Review scope (RO) | T/A |
+| IC2 | The study proposes or evaluates a **deep learning** model (CNN, YOLO family, R-CNN family, transformer, hybrid) | EC2 | Only traditional image processing or classical machine learning (e.g. SVM on hand-crafted features) | Methods of interest (RQ2) | T/A |
+| IC3 | The study reports **quantitative results** on a described image dataset (at least one of precision, recall, F1, mAP, accuracy) | EC3 | Concept, position or opinion papers; no experiment or no dataset described | Data needed for RQ1–RQ3 | Full text |
 | IC4 | **Peer-reviewed journal article**, published 2021–2025 | EC4 | Conference papers, book chapters, theses, preprints, editorials, letters; published outside 2021–2025 | Practical limit (stated in protocol) | T/A |
 | IC5 | Written in **English** | EC5 | Not in English | Practical limit | T/A |
 | IC6 | **Full text available** to the reviewers | EC6 | Full text could not be retrieved after library request and contacting the authors | Practical limit | Full text |

@@ -1,6 +1,6 @@
 # Stage 1 · Ideation, brainstorming and prompting
 
-**Goal of this stage:** leave with a review topic, one research objective (RO), a small set of research questions (RQs) with their motivations, a PICOC frame and a first list of search terms. Nothing found by an AI tool at this stage is evidence yet; it is a lead to be checked in Stage 2.
+**Goal of this stage:** leave with a review topic, one research objective (RO), a small set of research questions (RQs) with their motivations, and concept blocks with a first list of search terms. Nothing found by an AI tool at this stage is evidence yet; it is a lead to be checked in Stage 2.
 
 ![SLR framework](../figures/slr-framework.png)
 
@@ -13,7 +13,7 @@ The tools are interchangeable to a degree, but each has a strength. Use at least
 | [scite](https://scite.ai) | Grounded (citation database) | Check whether a claim is supported or contrasted by published papers; find recent reviews on the topic | Coverage gaps; read the paper, not only the citation statement |
 | [NotebookLM](https://notebooklm.google.com) | Grounded (your uploaded PDFs) | Ask questions across 10–50 key papers; compare how papers define the problem | Only knows what you upload |
 | [Humata](https://www.humata.ai) | Grounded (your uploaded PDFs) | Summarise and interrogate long PDFs, extract methods and datasets | Same as above; check page references |
-| [Claude](https://claude.ai) | Generative | Structure the RO, RQs, PICOC and Boolean search strings; critique and tighten wording | Never cite a paper it names without checking the DOI |
+| [Claude](https://claude.ai) | Generative | Structure the RO, RQs, concept blocks and Boolean search strings; critique and tighten wording | Never cite a paper it names without checking the DOI |
 | [DeepSeek](https://www.deepseek.com) | Generative | Alternative brainstorming, synonym generation, second opinion on the RQs | Same as above |
 | [Qwen](https://chat.qwen.ai) | Generative | Alternative brainstorming; useful for multilingual terms | Same as above |
 
@@ -74,12 +74,12 @@ Return a Markdown table with columns: No. | Research question | Motivation.
 Then list, for each RQ, the data items I must extract from every paper to answer it.
 ```
 
-### Prompt 5 · Build the PICOC frame and search concepts (Claude)
+### Prompt 5 · Derive the search concepts from the RQs (Claude)
 
 ```text
-For the RO and RQs below, fill in a PICOC table (Population, Intervention,
-Comparison, Outcome, Context). Then split the topic into 3–4 concept blocks for
-database searching. For each block list synonyms, spelling variants (British/US),
+For the RO and RQs below, identify the key concepts that every relevant paper
+must mention, and split them into 3–4 concept blocks for database searching
+(for example crop, disease, method, deployment). For each block list synonyms, spelling variants (British/US),
 abbreviations and specific sub-terms (for example disease names). Mark which terms
 need truncation (*) and which must stay as exact phrases.
 RO: [...]
@@ -113,6 +113,6 @@ If most papers do not report what an RQ needs, rewrite that RQ now. This is the 
 
 - [ ] One research objective (≤ 60 words)
 - [ ] Three RQs with motivations, in a table ([example](02-research-objective-and-questions.md))
-- [ ] PICOC table and concept blocks with synonyms
+- [ ] Concept blocks with synonyms, derived from the RQs
 - [ ] List of existing reviews with verified DOIs, and one paragraph on what the new review adds
 - [ ] A log of the prompts used and the tools/versions (needed for the AI-use statement, see [Stage 5](08-writing-and-reporting.md))

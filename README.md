@@ -2,7 +2,7 @@
 
 A step-by-step, reproducible workflow for writing a **systematic literature review (SLR)** with the help of AI tools, from the first idea to the submitted manuscript. It is written for postgraduate students and researchers, and illustrated with a worked example on **deep learning for rice leaf disease detection**.
 
-The framework combines established SLR guidance (PRISMA 2020; Kitchenham and Charters' SLR guidelines) with practical tooling: AI assistants for ideation, Zotero and Rayyan for screening, a computer-vision-specific quality checklist, and small Python scripts that make the counts and figures reproducible.
+The framework follows the PRISMA 2020 statement and combines it with practical tooling: AI assistants for ideation, Zotero and Rayyan for screening, a computer-vision-specific quality checklist, and small Python scripts that make the counts and figures reproducible.
 
 ![AI-assisted SLR framework](figures/slr-framework.png)
 
@@ -10,8 +10,8 @@ The framework combines established SLR guidance (PRISMA 2020; Kitchenham and Cha
 
 | Stage | What you do | Main tools | Guide |
 |---|---|---|---|
-| **1 · Ideation** | Map existing reviews, choose an angle, write the research objective, research questions and PICOC | scite, NotebookLM, Humata, Claude, DeepSeek, Qwen | [01 Ideation and prompting](docs/01-ideation-and-prompting.md) · [02 RO, RQs and PICOC](docs/02-research-objective-and-questions.md) |
-| **2 · Search** | Turn the PICOC into concept blocks and database-specific strings; log every search | Web of Science, Scopus, IEEE Xplore, ScienceDirect, ACM DL | [03 Search strategy](docs/03-search-strategy.md) |
+| **1 · Ideation** | Map existing reviews, choose an angle, write the research objective and research questions | scite, NotebookLM, Humata, Claude, DeepSeek, Qwen | [01 Ideation and prompting](docs/01-ideation-and-prompting.md) · [02 RO and RQs](docs/02-research-objective-and-questions.md) |
+| **2 · Search** | Turn the RQs into concept blocks and database-specific strings; log every search | Web of Science, Scopus, IEEE Xplore, ScienceDirect, ACM DL | [03 Search strategy](docs/03-search-strategy.md) |
 | **3 · Selection** | De-duplicate, screen titles/abstracts and full texts, apply eligibility criteria, assess quality | Zotero, Rayyan, `dedup_ris.py`, `qa_score.py` | [04 Screening](docs/04-reference-management-and-screening.md) · [05 Inclusion/exclusion](docs/05-inclusion-exclusion-criteria.md) · [06 Quality assessment](docs/06-quality-assessment.md) |
 | **4 · Extraction and analysis** | Extract data per RQ, describe the literature, synthesise, draw the PRISMA flow | Extraction template, VOSviewer, Python, Napkin | [07 Extraction and bibliometrics](docs/07-data-extraction-and-bibliometrics.md) |
 | **5 · Writing** | Write by RQ, cite from Zotero, refine language, disclose AI use, publish the reproducibility package | Zotero, InstaText | [08 Writing and reporting](docs/08-writing-and-reporting.md) |
@@ -28,7 +28,7 @@ The decision logic of stages 2–4 (criteria first, then quality threshold, then
 | RQ2 | Which deep learning architectures and feature-enhancement strategies are used to detect small, irregular and overlapping lesions, and how do they compare on the reported metrics? | Early lesions are small and look like healthy tissue; comparing design choices and their cost guides model selection. |
 | RQ3 | How rigorously are these models evaluated and deployed (metric definitions, splits, repeated runs, statistics, cross-dataset tests, speed on edge hardware)? | Small reported gains may fall within run-to-run variation, and workstation speed says little about field devices. |
 
-Full objective, PICOC and concept blocks: [docs/02](docs/02-research-objective-and-questions.md).
+Full objective and concept blocks: [docs/02](docs/02-research-objective-and-questions.md).
 
 ## Repository structure
 
@@ -78,7 +78,6 @@ python scripts/bibliometrics.py included.ris --out results/
 ## Key references
 
 - M. J. Page *et al.*, "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews," *BMJ*, vol. 372, n71, 2021, doi: [10.1136/bmj.n71](https://doi.org/10.1136/bmj.n71).
-- B. Kitchenham and S. Charters, "Guidelines for performing systematic literature reviews in software engineering," EBSE Technical Report EBSE-2007-01, Keele University and Durham University, 2007.
 - C. Wohlin, "Guidelines for snowballing in systematic literature studies and a replication in software engineering," in *Proc. EASE*, 2014, doi: [10.1145/2601248.2601268](https://doi.org/10.1145/2601248.2601268).
 
 ## How to cite
